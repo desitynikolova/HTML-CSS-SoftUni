@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <div>
+                <label>First Name</label>
+                <input type="text" autofocus placeholder="George" />
+
+                <br />
+
+                <label>Last Name</label>
+                <input type="text" placeholder="Devis" />
+
+                <br />
+
+                <label>Male</label>
+                <input type="radio" />
+
+                <label>Female</label>
+                <input type="radio" />
+
+                <label>Other</label>
+                <input type="radio" />
+
+                <br />
+
+                <span>Preferred contact method:</span>
+                <label>Email</label>
+                <input type="radio" />
+
+                <label>Phone</label>
+                <input type="radio" />
+
+                <br />
+
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com" />
+
+                <br />
+
+                <label>Phone</label>
+                <input type="number" placeholder="+359885236225"/>
+
+                <br />
+
+                <label>Town</label>
+                <select name="town" id="town">
+                    <option value="varna">Varna</option>
+                    <option value="plovdiv">Plovdiv</option>
+                    <option value="burgas">Burgas</option>
+                    <option value="sofia">Sofia</option>
+                    <option value="pleven">Pleven</option>
+                </select>
+
+                <br />
+
+                <label>Age</label>
+                <input type="number" min="18" max="70" />
+
+                <br />
+
+                <label>Programming language</label>
+                <input type="text" />
+                <datalist>
+                    <option value="java">Java</option>
+                    <option value="php">PHP</option>
+                    <option value="c#">C#</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="other">Other</option>
+                </datalist>
+
+                <br />
+
+                <textarea id="" cols="20" rows="5" placeholder="More information..."></textarea>
+
+                <br />
+
+                <input type="checkbox" />
+                <label>I agree the Terms and Conditions</label>
+                
+                <br />
+
+                <input type="submit" value="Send" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
