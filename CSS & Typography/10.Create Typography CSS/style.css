@@ -1,0 +1,26 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+tr:nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+
+td:nth-child(odd) > td{
+    background: rgb(94, 90, 90);
+}
+
+blockquote{
+    border-left: rgb(221, 221, 221);
+    font-style: italic;
+}
+
+blockquote p:last-child{
+    text-align: right;
+}
