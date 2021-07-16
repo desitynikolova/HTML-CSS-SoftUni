@@ -1,0 +1,21 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+html{
+    background-color: white;
+}
+
+.click-button{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+.email-button{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+}
