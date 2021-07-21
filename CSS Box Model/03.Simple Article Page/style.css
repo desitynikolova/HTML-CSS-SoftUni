@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(238, 238, 238);
+    color: rbg(51, 51, 51);
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+
+.wrapper{
+    max-width: 50%;
+    margin: auto;
+}
