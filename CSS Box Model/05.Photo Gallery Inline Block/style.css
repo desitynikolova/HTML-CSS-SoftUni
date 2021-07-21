@@ -1,0 +1,23 @@
+html {
+    background: rgb(238 , 238, 238);
+}
+
+.gallery{
+    margin: 20px auto;
+    max-width: 1200px;
+}
+.gallery li {
+    display: inline-block;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+    max-width: 300px;
+    vertical-align: middle;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
