@@ -1,0 +1,30 @@
+html{
+    background-color: lightgray;
+}
+
+body, ul, li{
+    display: flex;
+}
+
+.gallery{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+li{
+    align-items: center;
+    border: 5px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
