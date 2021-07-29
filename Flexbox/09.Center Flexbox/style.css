@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+
+h3, p{
+    padding-left: 10px;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid lightgray;
+    margin-left: 70px;
+    margin-right: 70px;
+    box-shadow: 5px 10px 10px gray;
+}
