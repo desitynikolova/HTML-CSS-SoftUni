@@ -1,0 +1,40 @@
+
+/* mobile */
+@media only screen and (min-width: 480px){
+    nav, ul{
+        display: flex;
+    }
+    
+    li{
+        list-style-type: none;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    
+    ul{
+        flex-grow: 1;
+    }
+    
+    h1{
+        flex-grow: 20;
+    }
+    
+    nav{
+        border-bottom: 2px solid black;
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 992px){    
+    h1{
+        flex-grow: 20;
+    }
+    
+    nav{
+        border-bottom: 2px solid black;
+    }
+
+    li{
+        list-style-type: none;
+    }
+}
