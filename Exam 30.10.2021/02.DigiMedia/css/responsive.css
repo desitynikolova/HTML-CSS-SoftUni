@@ -1,0 +1,42 @@
+@media all and (max-width: 600px) {
+    .hero img{
+        display: none;
+    }
+
+    .hero h1{
+        margin-top: 20px;
+    }
+
+    .hero-btns{
+        margin: 50px;
+        display: grid;
+    }
+
+    .navbar-light .navbar-brand{
+        margin: auto;
+    }
+
+    .container{
+        text-align: center;
+    }
+
+    .services{
+        text-align: center;
+    }
+
+    .service-box{
+        text-align: left;
+    }
+
+    .col-12.col-sm-12.col-lg-6{
+        margin-bottom: 50px;
+    }
+
+    .hero-btns.contact-btn{
+        display: none;
+    }
+
+    footer .contact-nav{
+        display: grid;
+    }
+}

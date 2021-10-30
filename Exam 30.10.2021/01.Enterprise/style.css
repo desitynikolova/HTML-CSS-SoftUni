@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.enterprise{
+    margin: 150px auto;
+    max-width: 1200px;
+    display: flex;
+    background-color: #f6f8f9;
+    padding: 70px 50px 0px 50px;
+}
+
+.enterprise-content{
+    width: 100%;
+}
+
+.enterprise-content-subtitle{
+    color: #767e87;
+}
+
+.enterprise-content-title{
+    font-size: 30px;
+    color: #767e87;
+    margin-top: -10px;
+}
+
+.enterprise-content-text{
+    line-height: 35px;
+    padding-right: 250px;
+    color: #68737c;
+}
+
+.btn-contact{
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: #786eff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.btn-learn-more{
+    color: black;
+    border: 1px solid black;
+    background-color: #f6f8f9;
+    border-radius: 3px;
+    padding: 9px 19px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.enterprise-img img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+
+

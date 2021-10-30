@@ -1,0 +1,238 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+
+*,
+**:before,
+**:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.header {
+  margin: 30px;
+  background-color: #efefef;
+}
+
+.header-nav-list-item {
+  list-style: none;
+  padding: 0px 5px;
+}
+
+.header-nav-list-item-link {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav-list {
+  display: flex;
+  float: right;
+}
+
+.header-context {
+  padding-top: 150px;
+  display: flex;
+}
+
+.header-context-image img {
+  width: 600px;
+}
+
+.header-context-text {
+  margin: 0px 100px;
+  font-size: 20px;
+}
+
+.header-context-text-title {
+  font-size: 40px;
+}
+
+.header-context-text-paragraph {
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.main-first-section {
+  margin: 0px 30px;
+  background-color: #efefef;
+  display: flex;
+}
+
+.main-first-section-article-img {
+  margin: 40px;
+}
+
+.main-first-section-article-text-title {
+  font-size: 40px;
+  margin-top: 80px;
+  padding-left: 100px;
+}
+
+.main-first-section-article-text-paragraph {
+  font-style: italic;
+  line-height: 30px;
+  width: 80%;
+}
+
+.icons-list {
+  display: flex;
+}
+
+.icons {
+  margin-left: -50px;
+}
+
+.icons-list-item {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.icons-list-item-link {
+  background-color: gray;
+  padding: 10px 15px;
+  color: white;
+}
+
+.main-second-section img {
+  margin: 30px;
+  width: -webkit-fill-available;
+}
+
+.main-third-section {
+  display: flex;
+  background-color: #efefef;
+  margin: 0px 30px;
+}
+
+.main-third-section-image img {
+  width: 600px;
+}
+
+.main-third-section-context-text {
+  margin: 100px 100px;
+  font-size: 20px;
+}
+
+.main-third-section-context-text-title {
+  font-size: 40px;
+}
+
+.main-third-section-text-paragraph {
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.main-third-section-image {
+  padding: 80px;
+}
+
+.photos {
+  display: flex;
+  background-color: #efefef;
+  margin: 30px;
+  padding-top: 20px;
+  padding: 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  left: 750px;
+  width: 500px;
+}
+
+.image2 {
+  position: absolute;
+  left: 100px;
+  width: 500px;
+}
+
+.image3 {
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  width: 550px;
+  margin-top: -15px;
+  box-shadow: 2px 2px 15px 0px;
+}
+
+.footer{
+    background-color: #efefef;
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-title{
+    font-size: 40px;
+}
+
+.footer-paragraph{
+    margin: 50px 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.footer input{
+    margin: 0px 20px 20px 20px;
+    padding: 5px 40px 5px 0px;
+}
+
+.footer textarea{
+    width: 450px;
+}
+
+.footer button{
+    margin-top: 20px;
+    display: block;
+    margin-left: 470px;
+    padding: 8px 175px;
+    background-color: black;
+    color: white;
+}
+
+.footer-2021{
+    margin-top: 100px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.header-context::after{
+    content: "";
+    height: 80px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.main-first-section-article-text-title::before{
+    content: "";
+    height: 2px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -100px;
+}
+
+.main-third-section-context-text::after{
+    content: "";
+    height: 80px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+
